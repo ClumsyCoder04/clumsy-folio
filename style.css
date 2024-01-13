@@ -360,7 +360,7 @@ footer {
 footer>aside{
   flex-direction: row !important;
 }
-@media (width<769px) {
+@media (max-width:769px) {
   /* Nav Section */
   .hamburger {
     display: block;
@@ -429,7 +429,7 @@ footer>aside{
     grid-template-columns: 1fr 1fr;
   }
 }
-@media (width<600px) {
+@media (max-width:600px) {
   .p-container {
     grid-template-columns: 1fr;
     width: 300px;
